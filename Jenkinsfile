@@ -72,6 +72,7 @@ pipeline {
         //we will do some changes in github repo and commit & merge the code. Then we have to click on "Build Now" on Jenkins to build the app, this is called Continuous delivery
         //We want that this script file would also come from github, for that we copy this content and will create filename "Jenkinsfile" and paste the content there
         //Now we will Automate it.
+        //Now we will not use Pipeline script, we will use "Pipeline script from SCM".
         
     }
 }
