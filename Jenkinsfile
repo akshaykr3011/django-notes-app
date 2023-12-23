@@ -79,5 +79,7 @@ pipeline {
         //the request to jenkins.
         //for this we have to configure the github. Go to your repo->Go to settings->Click on webhooks->Add webhook->Authenticate it->
         //Payload url: put the jenkins url: like-http://54.86.39.149:8080/github-webhook/ ->send me everything ->Click on Add webhook.
+        //Now wait for green tick, or refresh the github page
+        //Now do any change in code and commit it, and check, It is building automatically or not on Jenkins.
     }
 }
