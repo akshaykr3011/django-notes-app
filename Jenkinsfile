@@ -77,6 +77,7 @@ pipeline {
         //It will do Declarative checkout: SCM.->Clone Code->Build->Push the code into Docker Hub->Deploy 
         //To automate the above things, there is a concept called "web hooks". for that git hits the jenkins whenever any changes happens it will automatically send
         //the request to jenkins.
-        //
+        //for this we have to configure the github. Go to your repo->Go to settings->Click on webhooks->Add webhook->Authenticate it->
+        //Payload url: put the jenkins url: like-http://54.86.39.149:8080/github-webhook/ ->send me everything ->Click on Add webhook.
     }
 }
