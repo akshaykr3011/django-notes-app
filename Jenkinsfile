@@ -71,9 +71,12 @@ pipeline {
         //Now will do some change in docker-compose.yml on github, we will replace "build: ." as "image:akshaykr3011/notes-app"
         //we will do some changes in github repo and commit & merge the code. Then we have to click on "Build Now" on Jenkins to build the app, this is called Continuous delivery
         //We want that this script file would also come from github, for that we copy this content and will create filename "Jenkinsfile" and paste the content there
-        //Now we will Automate it.
+
         //Now we will not use Pipeline script, we will use "Pipeline script from SCM".
         //We will fill the form details like git clone link and branch name.
         //It will do Declarative checkout: SCM.->Clone Code->Build->Push the code into Docker Hub->Deploy 
+        //To automate the above things, there is a concept called "web hooks". for that git hits the jenkins whenever any changes happens it will automatically send
+        //the request to jenkins.
+        //
     }
 }
