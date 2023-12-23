@@ -74,5 +74,6 @@ pipeline {
         //Now we will Automate it.
         //Now we will not use Pipeline script, we will use "Pipeline script from SCM".
         //We will fill the form details like git clone link and branch name.
+        //It will do Declarative checkout: SCM.->Clone Code->Build->Push the code into Docker Hub->Deploy 
     }
 }
