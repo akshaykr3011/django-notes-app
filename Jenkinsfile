@@ -73,6 +73,6 @@ pipeline {
         //We want that this script file would also come from github, for that we copy this content and will create filename "Jenkinsfile" and paste the content there
         //Now we will Automate it.
         //Now we will not use Pipeline script, we will use "Pipeline script from SCM".
-        
+        //We will fill the form details like git clone link and branch name.
     }
 }
